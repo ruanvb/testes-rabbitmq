@@ -2,6 +2,7 @@
 #O arquivo de marcações de exemplo foi elaborado apenasr para os testes
 #Foram utilizadas apenas 10 mil linhas pois é o limite máximo de mensagens na queue, do plano free do RabbitMQ
 
+#imports
 import json
 import pika
 
