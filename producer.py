@@ -13,10 +13,8 @@ channel = connection.channel()
 #define queue
 channel.queue_declare(queue='marcacao-ponto', durable=True)
 
-i = 1
-
 #percorre lista para publicação de mensagens
-for i in range(5000):
+for i in range(10000):
     x = "Mensagem número " + str(i)
 
     #gera mensagens no Rabbit
