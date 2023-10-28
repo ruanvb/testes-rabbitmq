@@ -7,7 +7,7 @@ Backend responsável por publicar mensagens em massa no RabbitMQ.
 Atualmente a publicação está somente centralizada via interface na plataforma https://api-marcacao-ponto.herokuapp.com/, visto que não possuímos produtores dessas mensagens. Dessa forma, foi criado esse pacote de testes para atender a necessidade de publicação em massa de mensagens, para testes de carga.
 
 ## Testes
-O testes de publicação podems ser realizados de forma local.
+O testes de publicação podem ser realizados de forma local.
 
 O limite de mensagens é de 10 mil, a menos que um consumer busque e baixe essas mensagens. Dessa forma, não é possível testar mais que isso. A limitação é do plano gratuito do RabbitMQ.
 
