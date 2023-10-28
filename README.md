@@ -31,4 +31,4 @@ Alguns caminhos poderão ser tomados agora:
 
 Será exibida uma mensagem " [x] Enviado + {conteúdo}". Quando publicadas as mensagens, o consumer (caso esteja ativo, o local e o dedicado irão concorrer) irá automaticamente baixar da fila.
 
-Para gerar uma mensagem, também poderá ser acessada a aplicação web desenvolvida: https://api-marcacao-ponto.herokuapp.com/ e realizado um registro de ponto fictício.
+Para gerar uma mensagem, também poderá ser acessada a aplicação web desenvolvida: https://api-marcacao-ponto.herokuapp.com/ (indisponível no momento) e realizado um registro de ponto fictício.
